@@ -37,6 +37,43 @@ Abaixo segue o que foi utilizado na criação deste projeto:
 https://user-images.githubusercontent.com/78452566/136587612-1a06835b-707f-4034-b550-8359e19fce1c.mp4
 
 ---
+<!-- PROJECT REQUIREMENTS-->
+<h2 id="requisitos">:leftwards_arrow_with_hook: Pré-requisitos</h2>
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+```
+$ node -v
+v12.19.0
+$ npm -v
+6.14.5
+```
+
+<h4>:checkered_flag: Rodando o projeto </h4>
+
+```bash
+# Clone este repositório
+
+# Acesse a pasta do projeto no terminal
+$ cd ./astromatch2
+
+# Instale as dependências
+$ npm install
+$ npm install axios
+$ npm install react-router-dom
+$ npm install styled-components
+$ npm install @material-ui/core
+$ npm install @material-ui/icons
+
+# Para iniciar o projeto
+$ npm run start
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
+
+
 <!-- CONTACT -->
 ## Autor
 <table>
